@@ -80,6 +80,7 @@ layerSwitcher.showPanel();
 
 
 map.getView().fit([-20037508.342789, -20037508.342789, 20037508.342789, 20037508.342789], map.getSize());
+map.getView().setCenter(ol.proj.fromLonLat([2.35, 48.85]))
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
